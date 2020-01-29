@@ -7,7 +7,7 @@ An alternate way to update a SharePoint list especially when there are required 
 
 ## Requirements
 1. **`Site Address`**
-   1. ```https://s-cloud.kp.org/sites/siteName```
+   1. Syntax: ```https://sp-cloud.kp.org/sites/siteName```
    2. Change `siteName` to a correct (your) site name
 1. **`Method`** set to ```POST```
 1. **`Uri`**
