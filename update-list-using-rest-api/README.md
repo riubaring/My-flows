@@ -7,12 +7,15 @@ An alternate way to update a SharePoint list especially when there are required 
 
 ## Requirements
 #### A.**`Site Address`**
-##### Syntax #####
-```https://sp-cloud.kp.org/sites/siteName```
-##### Note #####
-Change `siteName` to the correct (your) site name
+   ##### Syntax
+      ```https://sp-cloud.kp.org/sites/siteName```
+   ##### Note
+      Change `siteName` to the correct (your) site name
 
-1. **`Method`** set to ```POST```
+#### B. **`Method`** 
+   #### Sytax
+      Set to ```POST```
+
 1. **`Uri`**
    1. Syntax: ```_api/Web/Lists/GetByTitle('listName')/Items(itemID)```
    1. Note:
