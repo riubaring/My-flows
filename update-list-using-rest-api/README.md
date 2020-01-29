@@ -6,41 +6,12 @@ An alternate way to update a SharePoint list especially when there are required 
 ![Update s SharePoint List using REST API](./update-list-using-rest-api.png)
 
 ## Requirements
-<table>
-   <thead>
-      <tr>
-         <td>Field name</td>
-         <td>Value</td>
-         <td>Comments</td>
-      </td>
-   </thead>
-   <tbody>
-      <tr>
-         <td>Site Address</td>
-         <td>    https://sp-cloud.kp.org/sites/siteName    </td>
-         <td>Change `siteName` to the correct (your) site name</td>
-      </tr>
-   </tbody>
-</table>
-#### A.**`Site Address`**
-   ##### Syntax
-      ```https://sp-cloud.kp.org/sites/siteName```
-   ##### Note
-      
-
-#### B. **`Method`** 
-   #### Sytax
-      Set to ```POST```
-
+Make sure to change the following:
 1. **`Uri`**
    1. Syntax: ```_api/Web/Lists/GetByTitle('listName')/Items(itemID)```
    1. Note:
       1. `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
       1. `itemId` to `@{triggerBody()?['ID']}`
-1. **`Headers`**
-   Field|Value
-   -----|-----
-   **X-HTTP-Method**|```Merge```
 1. **`Body`**
    1. `SP.Data.listNameListItem` - change the `listName` part to your list name
    1. `columnName1` to the first column name
