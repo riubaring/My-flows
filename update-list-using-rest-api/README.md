@@ -6,11 +6,12 @@ An alternate way to update a SharePoint list especially when there are required 
 ![Update s SharePoint List using REST API](./update-list-using-rest-api.png)
 
 ## Requirements
-#### **`Site Address`**
+#### A.**`Site Address`**
+##### Syntax #####
+```https://sp-cloud.kp.org/sites/siteName```
+##### Note #####
+Change `siteName` to the correct (your) site name
 
-   1. Syntax: ```https://sp-cloud.kp.org/sites/siteName```
-   1. Note:
-      1. Change `siteName` to the correct (your) site name
 1. **`Method`** set to ```POST```
 1. **`Uri`**
    1. Syntax: ```_api/Web/Lists/GetByTitle('listName')/Items(itemID)```
