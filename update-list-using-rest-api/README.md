@@ -17,7 +17,7 @@ An alternate way to update a SharePoint list especially when there are required 
    <tbody>
       <tr>
          <td>Site Address</td>
-         <td>`https://sp-cloud.kp.org/sites/siteName`</td>
+         <td> `https://sp-cloud.kp.org/sites/siteName` </td>
          <td>Change `siteName` to the correct (your) site name</td>
       </tr>
    </tbody>
