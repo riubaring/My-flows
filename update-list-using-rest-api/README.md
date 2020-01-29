@@ -6,10 +6,12 @@ An alternate way to update a SharePoint list especially when there are required 
 ![Update s SharePoint List using REST API](./update-list-using-rest-api.png)
 
 ## Requirements
-Field|Comments
------|--------
-`Uri`|Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
-Body| - `SP.Data.listNameListItem` - change the `listName` part to your list name
+Make sure to change the following:
+1. **`Uri`** field
+  1. Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
+
+1. **`Body`**
+  1. `SP.Data.**listName**ListItem` - change the `listName` part to your list name
 - `columnName1` to the first column name
 - `value1` to the desired value for column 1
 - you can continue listing more columns. Make sure to use commas to separate the pairs. Make sure to remove the comma if you are updating just one column.
