@@ -8,7 +8,7 @@ An alternate way to update a SharePoint list especially when there are required 
 ## Requirements
 Make sure to change the following:
 1. **`Uri`** field
-  1. Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
+   1. Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
 
 1. **`Body`**
   1. `SP.Data.**listName**ListItem` - change the `listName` part to your list name
