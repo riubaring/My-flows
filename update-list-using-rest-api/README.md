@@ -8,13 +8,13 @@ An alternate way to update a SharePoint list especially when there are required 
 ## Requirements
 Make sure to change the following:
 1. **`Uri`** field
-   a. Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
+   1. Change `listItem` to the name of your list. If the list's name has spaces, use %20 for each space
 
 1. **`Body`**
-   a. `SP.Data.listNameListItem` - change the `listName` part to your list name
-   a. `columnName1` to the first column name
-   a. `value1` to the desired value for column 1
-   a. you can continue listing more columns. Make sure to use commas to separate the pairs. Make sure to remove the comma if you are updating just one column.
+   1. `SP.Data.listNameListItem` - change the `listName` part to your list name
+   1. `columnName1` to the first column name
+   1. `value1` to the desired value for column 1
+   1. you can continue listing more columns. Make sure to use commas to separate the pairs. Make sure to remove the comma if you are updating just one column.
 
 ### Authors
 - Riu Baring
